@@ -1,0 +1,14 @@
+// C++ code
+//
+void setup()
+{
+  pinMode(7, OUTPUT);
+}
+
+void loop()
+{
+	tone (7,220,100);
+  		delay(900);
+  	tone (7,180,100);
+  		delay(200);
+}
